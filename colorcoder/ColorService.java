@@ -10,7 +10,7 @@ public class ColorService {
 
 	public  int getPairNumberFromColor(MajorColor major, MinorColor minor) {
 		return major.getIndex() * ColorUtil.numberOfMinorColors + minor.getIndex() + 1;
-	}
+    }
 	
 	public  IColor fromIndex(Object[] colors, int index) {
         for(Object obj: colors) {
